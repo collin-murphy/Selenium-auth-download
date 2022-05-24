@@ -19,7 +19,7 @@ WINDOW_SIZE = 800
 TIME = 30 #seconds
 #ARG = f"--window-size={WINDOW_SIZE},{WINDOW_SIZE}"
 ARG = "--headless"
-DOWNLOAD_DIR = "./Downloads"
+#DOWNLOAD_DIR = "./Downloads"
 FILENAME = f"report_{date.today()}.csv"
 
 def repeat(driver, host, loop=1):
